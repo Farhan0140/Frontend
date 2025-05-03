@@ -1,0 +1,55 @@
+
+
+.c-title {
+    font-size: 45px;
+}
+
+.title-style {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icons {
+    color: black;
+}
+
+.icon-insta:hover {
+    color: orange;
+}
+
+.d-hover:hover {
+    color: black;
+}
+
+.contact {
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 30px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.footer-container {
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width:320px) and (max-width:430px) {
+    .contact {
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (min-width:431px) and (max-width:770px) {
+    .contact {
+        border: 2px solid gray;
+        border-radius: 5px;
+        width: 70%;
+        margin: auto;
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+}
