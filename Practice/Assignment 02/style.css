@@ -1,0 +1,55 @@
+
+.search_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.INPUT {
+    border: 2px solid black;
+}
+
+
+#not-found {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cart-container > h1 {
+    text-align: center;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-details {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p-details > p {
+    font-size: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.p-details > img {
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.c-p-name {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    display: inline;
+    overflow: hidden;
+}
